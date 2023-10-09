@@ -1,0 +1,1 @@
+import{r as t,j as o}from"./index-369607a3.js";const n=()=>{const[r,e]=t.useState(null);return t.useEffect(()=>{if(r)throw r},[r]),{throwError:e}};function c(){const{throwError:r}=n();return o.jsxs("main",{children:[o.jsx("h2",{children:"Page1"}),o.jsx("button",{onClick:()=>{r(new Error("oops!"))}}),o.jsx("div",{children:"Page1 component"})]})}export{c as default};
